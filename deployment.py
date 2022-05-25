@@ -15,7 +15,7 @@ st.set_option('deprecation.showPyplotGlobalUse', False)
 
 st.header('Medical Report Generation Using Chest X-ray images')
 from PIL import Image
-image = Image.open('/home/lokesh/Desktop/image.jpeg')
+image = Image.open('image.jpeg')
 st.image(image, caption='credit:Photo by CDC on Unsplash',width=700)
 
 st.markdown('This web app generates medical report for Chest X-ray image. Upload a chest X-ray image below and the report will be generated automatically.')
